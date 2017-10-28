@@ -1,8 +1,18 @@
 body {
 	font-family: helvetica;
+    background-color: #C1E1A6;
+}
+
+#title {
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 div {
-	border: solid 2px;
-    margin: 10px;
+	border: solid 2px; /* Creating a solid border around by divs */
+    padding-left: 5px;
+    margin: 5px; /* Giving myself a little space from the left side of the screen */
+    background-color: white;
 }

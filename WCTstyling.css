@@ -10,7 +10,7 @@ body {
     margin-top: 0px;
 }
 
-div {
+.content {
 	border: solid 2px; /* Creating a solid border around by divs */
     padding-left: 5px;
     margin: 5px; /* Giving myself a little space from the left side of the screen */

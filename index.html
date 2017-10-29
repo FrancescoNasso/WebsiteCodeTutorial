@@ -1,15 +1,18 @@
 <!DOCTYPE Html>
 <html>
 	<link rel="stylesheet" type="text/css" href="WCTstyling.css">
+    <link rel="shortcut icon" href="http://www.iconj.com/ico/9/j/9jnyxhjyv7.ico" type="image/x-icon" />
 <head>
 	<title>Website Code Tutorial</title>
 </head>
 <body>
 	<h1 id="title">WebDev 101 - Coding Tutorial</h1> 	
-	<div>
+    <img src="https://user-images.githubusercontent.com/16769972/32140693-3c793c46-bc40-11e7-8173-0e1d9b5da9bd.png" length="100px" width="50px" align="left">
+    <h3>HTML5</h3>
+	<div class="content">
         <p>You can use the <b>&lt;p&gt;</b> tag in order to write paragraphs. Paragraphs have a default styling which you can further customize using CSS.</p>
 	</div>
-	<div>
+	<div class="content">
 		<p>You can use heading tag <b>&lt;h1&gt;</b> - <b>&lt;h6&gt;</b> to designate headings. Browsers attribute their own size and font to each heading.</p>
 		<h1>Heading 1</h1>
 		<h2>Heading 2</h2>
@@ -18,16 +21,16 @@
 		<h5>Heading 5</h5>
 		<h6>Heading 6</h6>	
 	</div>
-	<div>
+	<div class="content">
 		<p>You can make things <b>bold</b> with the <b>&lt;b&gt;</b> tag. Alternatively, you can use the <b>&lt;strong&gt;</b> tag to denote exactly the same thing.</p> 
 	</div>
-    <div>
-        <p>You can make your content italicized using <i>&lt;i&gt;</i>. The same effect can be achieved using <em>&lt;i&gt;</em> which stands for emphasis.</p>
+    <div class="content">
+        <p>You can make your content italicized using <b>&lt;i&gt;</b>. The same effect can be achieved using <em>&lt;i&gt;</em> which stands for emphasis.</p>
     </div>
-	<div>
+	<div class="content">
 		<p>You can use HTML to denote superscript (e.g., 1<sup>2</sup>) using the &lt;<b>sup</b>&gt; tag. You can also use subscript (e.g., H<sub>2</sub>0) by using the &lt;<b>sub</b>&gt; tag. </p>
 	</div>
-    <div>
+    <div class="content">
         <p>Line breaks <b>&lt;br /&gt;</b> are really good for making things appear on new lines. <br/>
             Just
         <br/>
@@ -39,24 +42,68 @@
         <p><strong>Fun Fact</strong>: You don't need closing or opening tags for either of these breaks. 
         </p>
     </div>
-    <div>
+    <div class="content">
         <p>Blockquotes <b>&lt;blockquotes&gt;</b> are used to specify longer quotes. When combined with CSS you can use it to apply a specific stylization to your larger quotes.</p>
             <blockquote>"It was the best of times it was the worst of times." - The opening to A Tale of Two Cities.</blockquote>
-            You can also specify smaller quotes using the quote attribute <quote>For smaller quotes use this!</quote>
+            You can also specify smaller quotes using the quote attribute <b>&lt;quote&gt;</b>. <quote>For smaller quotes use this! <b>&lt;quote&gt;</b></quote> - Francesco Nasso
         <p><b>Fun Fact</b>: You will rarely use this...</p>
     </div>
-    <div>
-        <p>You can use abbreviations to provide a full word when its abreviated.</p>
-        <p>For example...<abbr title="Water, Hydrogen dioxide">H<sub>2</sub>0</abbr></p>
+    <div class="content">
+        <p>You can use abbreviations <b>&lt;abbr&gt;</b> to provide a full word when its abreviated.</p>
+        <p>For example... <abbr title="Water, Hydrogen dioxide">H<sub>2</sub>0</abbr></p>
     </div>
-    <div>
-        <p>You can also use HTML for citations. For example, take a look at the following quotation.</p>
+    <div class="content">
+        <p>You can also use HTML for citations <b>&lt;cite&gt;</b>. For example, take a look at the following quotation.</p>
         <blockquote>“Maybe there aren't any such things as good friends or bad friends - maybe there are just friends, people who stand by you when you're hurt and who help you feel not so lonely. Maybe they're always worth being scared for, and hoping for, and living for. Maybe worth dying for too, if that's what has to be. No good friends. No bad friends. Only people you want, need to be with; people who build their houses in your heart.”</blockquote>
         <p><cite>It</cite> by Stephen King</p>
     </div>
-    <div>
-        <p>Definition tags can be used to specfy a definition.
-        <dfn>coyling</dfn>: sickeningly cute.</p>
+    <div class="content">
+        <p>Definition <b>&lt;dfn&gt;</b> tags can be used to specify a definition.</p>
+        <p><dfn>coyling</dfn>: sickeningly cute.</p>
+    </div>
+    <div class="content">
+        <p>You can specify addresses by using the address tag <b>&lt;address&gt;</b>:</p>
+        <address><p>example-email@example.org</p></address>
+    </div>
+    <div class="content">
+        <p>There are tags for inserting <b>&lt;del&gt;</b> and deleting content as well</p>
+        <p><del>That</del><ins>This</ins> was a greaty example!</p>
+        <p>You can also use a slash <b>&lt;s&gt;</b> to do the same thing as <b>&lt;del&gt;</b>.</p>
+    </div>
+    <div class="content">
+        <p>One of the most useful features of HTML is the ability to specify lists <b>&lt;li&gt;</b>. There are three main types of lists: Ordered lists <b>&lt;ol&gt;</b>, Unordered lists <b>&lt;ul&gt;</b>, and Definition lists <b>&lt;dl&gt;</b>.</p>
+        <ol>
+            <li>One for the money</li>
+            <li>Two for the show</li>
+            <li>Three to get ready</li>
+            <li>Four to go</li>
+        </ol>
+        <ul>
+            <li>Red</li>
+            <li>Green</li>
+            <li>Blue</li>
+        </ul>
+        <p>A definitional list is very special. You use definitional terms  to specify the term and the definition tags to specify the definition.</p>
+        <dl>
+            <dt>Sushi</dt>
+            <dd>A type of Japanese cuisine typified by raw fish.</dd>
+            <dt>Sashimi</dt>
+            <dd>Sliced raw fish that is served with condiments such as shredded dicon radish or ginger root, wasabi and soy sauce.</dd>
+        </dl>
+        <p>Lists can aslo be nested within other lists.</p>
+        <ul>
+            <li>College List</li>
+                <ul>
+                    <li>Harvard</li>
+                    <li>Yale</li>
+                    <li>Princeton</li>
+                        <ol>
+                            <li>La Cross</li>
+                            <li>Basketball</li>
+                            <li>Swimming</li>
+                        </ol>
+                </ul>
+        </ul>
     </div>
 </body>
 </html>

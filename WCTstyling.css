@@ -1,6 +1,6 @@
 body {
 	font-family: helvetica;
-    background-color: #C1E1A6;
+    background-image: url(https://user-images.githubusercontent.com/16769972/32188846-50ad1602-bd7f-11e7-8ff9-c6113bc7d88c.png);
 }
 
 #title {
@@ -15,4 +15,19 @@ body {
     padding-left: 5px;
     margin: 5px; /* Giving myself a little space from the left side of the screen */
     background-color: white;
+}
+
+
+.div_header {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #404040;
+}
+
+.snippet {
+    border: solid blue 1px;
+    background-color: aliceblue;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
 }

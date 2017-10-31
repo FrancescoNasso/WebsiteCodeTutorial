@@ -1,4 +1,5 @@
 <!DOCTYPE Html>
+<!-- Welcome to my page source. Sprinkled through out are tips and strategies for building the components of this website-->
 <html>
 	<link rel="stylesheet" type="text/css" href="WCTstyling.css">
     <link rel="shortcut icon" href="http://www.iconj.com/ico/9/j/9jnyxhjyv7.ico" type="image/x-icon" />
@@ -10,9 +11,11 @@
     <img src="https://user-images.githubusercontent.com/16769972/32140693-3c793c46-bc40-11e7-8173-0e1d9b5da9bd.png" length="100px" width="50px" align="left">
     <h3>HTML5</h3>
 	<div class="content">
+        <h4 class="div_header">Paragraphs</h4>
         <p>You can use the <b>&lt;p&gt;</b> tag in order to write paragraphs. Paragraphs have a default styling which you can further customize using CSS.</p>
 	</div>
 	<div class="content">
+        <h4 class="div_header">Headings</h4>
 		<p>You can use heading tag <b>&lt;h1&gt;</b> - <b>&lt;h6&gt;</b> to designate headings. Browsers attribute their own size and font to each heading.</p>
 		<h1>Heading 1</h1>
 		<h2>Heading 2</h2>
@@ -22,15 +25,19 @@
 		<h6>Heading 6</h6>	
 	</div>
 	<div class="content">
+        <h4 class="div_header">Bolding</h4>
 		<p>You can make things <b>bold</b> with the <b>&lt;b&gt;</b> tag. Alternatively, you can use the <b>&lt;strong&gt;</b> tag to denote exactly the same thing.</p> 
 	</div>
     <div class="content">
+        <h4 class="div_header">Italics</h4>
         <p>You can make your content italicized using <b>&lt;i&gt;</b>. The same effect can be achieved using <em>&lt;i&gt;</em> which stands for emphasis.</p>
     </div>
 	<div class="content">
+        <h4 class="div_header">Subscripts</h4>
 		<p>You can use HTML to denote superscript (e.g., 1<sup>2</sup>) using the &lt;<b>sup</b>&gt; tag. You can also use subscript (e.g., H<sub>2</sub>0) by using the &lt;<b>sub</b>&gt; tag. </p>
 	</div>
     <div class="content">
+        <h4 class="div_header">Line Breaks</h4>
         <p>Line breaks <b>&lt;br /&gt;</b> are really good for making things appear on new lines. <br/>
             Just
         <br/>
@@ -43,41 +50,50 @@
         </p>
     </div>
     <div class="content">
+        <h4 class="div_header">Quotes</h4>
         <p>Blockquotes <b>&lt;blockquotes&gt;</b> are used to specify longer quotes. When combined with CSS you can use it to apply a specific stylization to your larger quotes.</p>
             <blockquote>"It was the best of times it was the worst of times." - The opening to A Tale of Two Cities.</blockquote>
             You can also specify smaller quotes using the quote attribute <b>&lt;quote&gt;</b>. <quote>For smaller quotes use this! <b>&lt;quote&gt;</b></quote> - Francesco Nasso
         <p><b>Fun Fact</b>: You will rarely use this...</p>
     </div>
     <div class="content">
+        <h4 class="div_header">Abbreviations</h4>
         <p>You can use abbreviations <b>&lt;abbr&gt;</b> to provide a full word when its abreviated.</p>
         <p>For example... <abbr title="Water, Hydrogen dioxide">H<sub>2</sub>0</abbr></p>
     </div>
     <div class="content">
+        <h4 class="div_header">Citations</h4>
         <p>You can also use HTML for citations <b>&lt;cite&gt;</b>. For example, take a look at the following quotation.</p>
         <blockquote>“Maybe there aren't any such things as good friends or bad friends - maybe there are just friends, people who stand by you when you're hurt and who help you feel not so lonely. Maybe they're always worth being scared for, and hoping for, and living for. Maybe worth dying for too, if that's what has to be. No good friends. No bad friends. Only people you want, need to be with; people who build their houses in your heart.”</blockquote>
         <p><cite>It</cite> by Stephen King</p>
     </div>
     <div class="content">
+        <h4 class="div_header">Definitions</h4>
         <p>Definition <b>&lt;dfn&gt;</b> tags can be used to specify a definition.</p>
         <p><dfn>coyling</dfn>: sickeningly cute.</p>
     </div>
     <div class="content">
+        <h4 class="div_header">Paragraphs</h4>
         <p>You can specify addresses by using the address tag <b>&lt;address&gt;</b>:</p>
         <address><p>example-email@example.org</p></address>
     </div>
     <div class="content">
+        <h4 class="div_header">Inserting and Deleting</h4>
         <p>There are tags for inserting <b>&lt;del&gt;</b> and deleting content as well</p>
         <p><del>That</del><ins>This</ins> was a greaty example!</p>
         <p>You can also use a slash <b>&lt;s&gt;</b> to do the same thing as <b>&lt;del&gt;</b>.</p>
     </div>
     <div class="content">
+        <h4 class="div_header">Lists</h4>
         <p>One of the most useful features of HTML is the ability to specify lists <b>&lt;li&gt;</b>. There are three main types of lists: Ordered lists <b>&lt;ol&gt;</b>, Unordered lists <b>&lt;ul&gt;</b>, and Definition lists <b>&lt;dl&gt;</b>.</p>
+        <h5>Ordered List</h5>
         <ol>
             <li>One for the money</li>
             <li>Two for the show</li>
             <li>Three to get ready</li>
             <li>Four to go</li>
         </ol>
+        <h5>Ordered List</h5>
         <ul>
             <li>Red</li>
             <li>Green</li>
@@ -85,12 +101,14 @@
         </ul>
         <p>A definitional list is very special. You use definitional terms  to specify the term and the definition tags to specify the definition.</p>
         <dl>
+            <h5>Definitional List</h5>
             <dt>Sushi</dt>
             <dd>A type of Japanese cuisine typified by raw fish.</dd>
             <dt>Sashimi</dt>
             <dd>Sliced raw fish that is served with condiments such as shredded dicon radish or ginger root, wasabi and soy sauce.</dd>
         </dl>
         <p>Lists can aslo be nested within other lists.</p>
+        <h5>Nested Lists</h5>
         <ul>
             <li>College List</li>
                 <ul>
@@ -98,12 +116,69 @@
                     <li>Yale</li>
                     <li>Princeton</li>
                         <ol>
-                            <li>La Cross</li>
+                            <li>Lacrosse</li>
                             <li>Basketball</li>
                             <li>Swimming</li>
                         </ol>
                 </ul>
         </ul>
     </div>
+    <div class="content">
+        <h4 class="div_header">Links and Page Anchors (⚓)</h4>
+        <h5>Absolute URLs</h5>
+            <p>Links can be used to call out to link to external websistes or to sections within a page of a site. Links start with an opening link tag <b>&lt;a&gt;</b> and ends in a closing link tag <b>&lt;/a&gt;</b>.</p> 
+            <p>Example: <a href="www.google.com">Google</a></p>
+                <div class="snippet">
+                    <p>Source Snippet</p>
+                    <p>&lt;a href="www.google.com"&gt;Google&lt;/a&gt;</p>
+                </div>
+        <h5>Relative URLs</h5>
+            <p>Relative URLs are used for linking to parts of the same site.</p>
+                <div class="snippet">
+                    <p>Source Snippet</p>
+                    <p>&lt;a href="index.html"&gt;Google&lt;/a&gt;</p>
+                </div>
+        <h5>Emails</h5>
+            <p>A mail to can be used to get the user to mail.</p>
+                <div class="snippet">
+                    <p>Source Snippet</p>
+                    <p>&lt;a href="mailto:dante5541@aol.com"&gt;Email Me!!!&lt;/a&gt;</p>
+                </div>
+        <h5>Target</h5>
+            <p>Targets can be used to specify how things open. Target="_blank" is used to tell a browser to open a page in a new tab.</p>
+        <p>Example: <a href="www.google.com" target="_blank">Google (opens in a new window)</a></p>
+                <div class="snippet">
+                    <p>Source Snippet</p>
+                    <p>&lt;a href="www.google.com" target="_blank"&gt;Google (opens in a new window)&lt;/a&gt;</p>
+                </div>
+    </div>
+    <div class="content">
+        <h4 class="div_header">Images</h4>
+        <h5>Image tags</h5>
+        <p>Image tags are used to display images on a website. An image tag <b>&lt;img&gt;</b> usually has a few accomping tags to make the content of the image known if the reader is using a screen reader. <b>&lt;alt&gt;</b>
+        </p>
+        <p><img src="http://cdn2-www.dogtime.com/assets/uploads/gallery/havanese-dog-breed-pictures/6-sidestanding.jpg" title="cute dog" alt="This is a picture of a cute dog"></p>
+            <div class="snippet">
+                    <p>Source Snippet</p>
+                    <p>&lt;img src="http://cdn2-www.dogtime.com/assets/uploads/gallery/havanese-dog-breed-pictures/6-sidestanding.jpg" title="cute dog" alt="This is a picture of a cute dog"&gt;</p>
+            </div>
+        <p>Fun Fact: It is considered best practice to use alt and title for all image files. This helps to make your website more accessible to users.</p>
+        <h5>Height and Width</h5>
+        <p>You can control the size of an image on a browser by specifying its height and width as atributes. Here is the same picture minimized to 200px height and 200px width.</p>
+        <p><img src="http://cdn2-www.dogtime.com/assets/uploads/gallery/havanese-dog-breed-pictures/6-sidestanding.jpg" title="cute dog" alt="This is a picture of a cute dog" height="200px" width="200"></p>
+            <div class="snippet">
+                    <p>Source Snippet</p>
+                    <p>&lt;img src="http://cdn2-www.dogtime.com/assets/uploads/gallery/havanese-dog-breed-pictures/6-sidestanding.jpg" title="cute dog" alt="This is a picture of a cute dog" height="200" width="200"&gt;</p>
+                </div>
+        <p>Fun fact: CSS is more frequently used to control the height and width of images.</p>
+    </div>
+    <!--
+    <img src="https://user-images.githubusercontent.com/16769972/32175252-c506e16a-bd5a-11e7-9708-db3f4baba595.png" length="40px" width="40px" align="left">
+    <h3>CSS3</h3>
+    <div class="content">
+        <h4 class="div_header">Lists</h4>
+        <p>test</p>
+    </div>
+     -->
 </body>
 </html>

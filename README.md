@@ -1,8 +1,27 @@
 # WebsiteCodeTutorial
 
-<p>I developed this website to apply my self-directed lessons in coding. A secondary goal for this website is to share this site with my relatives, who are also interested in learning code. I will continue adding to this page as my knowledge of coding increases. <em>My aspirational goal is to contribute to this website atleast once per day.</em></p>
+<p>I developed this website as an outlet for building with my self-guided lessons in code. A secondary goal for this website is to share this site with my relatives, friends, and anyone else who is also interested in learning code. I will continue adding to this page as my knowledge of coding increases. <em>My aspirational goal is to contribute to this website atleast once per day.</em></p>
 
 <h3>Developer's Blog</h3>
+
+<h5>October 30th</h5>
+    <p>Continuing to add more to the website. Today, I experimented with adding a coding snippet section to allow users to copy and paste larger sections of code into their own websites. </p>
+<h6>Goals</h6>
+    <ul>
+        <li>Continue Adding HTML code to the site</li>
+        <li>Add additional styling to the site via CSS</li>
+    </ul>
+<h6>Updates</h6>
+    <ul>
+        <li>Headers explaining content for each div</li>
+        <li>Links and Anchors</li>
+        <li>Code Snippet Box V1 </li>
+    </ul>
+<h6>Fixes</h6>
+    <ul>
+        <li>Typos</li>
+    </ul>
+    <img src="https://user-images.githubusercontent.com/16769972/32205383-552c4d1a-bdc5-11e7-8cb8-cb4e3c18cff5.png">
 
 <h5>October 28th</h5>
     <p>The website continues to develop. I worked on a few additional lessons including creating different types of lists. I continued updating the styling based on past experience with CSS. </p>

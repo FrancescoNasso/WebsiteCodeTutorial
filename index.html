@@ -169,8 +169,60 @@
             <div class="snippet">
                     <p>Source Snippet</p>
                     <p>&lt;img src="http://cdn2-www.dogtime.com/assets/uploads/gallery/havanese-dog-breed-pictures/6-sidestanding.jpg" title="cute dog" alt="This is a picture of a cute dog" height="200" width="200"&gt;</p>
-                </div>
+            </div>
         <p>Fun fact: CSS is more frequently used to control the height and width of images.</p>
+        <h5>Image Figures and Captions</h5>
+        <p>A recent development it HTML5 is the use of figures and captions to link together images with their captions. Figures are are designated with the figure tag <b>&lt;figure&gt;</b> and captions are designated with the figure caption tag <b>&lt;figcaption&gt;</b>.</p>
+        <p><Figure><img src="https://i.pinimg.com/originals/3a/53/90/3a5390b170efc769a9b6f434480b1501.jpg" title="space cow" alt="a picture of a cow floating in space">
+                    <figcaption>This is a picture of a cow floating in space.</figcaption></Figure>
+        <div class="snippet">
+                <p>Source Snippet</p>
+                <p>&lt;Figure&gt; <br />
+                     &nbsp; &nbsp; &nbsp; &lt;img src="https://i.pinimg.com/originals/3a/53/90/3a5390b170efc769a9b6f434480b1501.jpg" title="space cow" alt="a picture of a cow floating in space"&gt;<br />
+                     &nbsp; &nbsp; &nbsp; &lt;figcaption&gt; This is a picture of a cow floating in space.&lt;/figcaption&gt;<br />
+                &lt;/Figure&gt;</p>
+        </div>
+    </div>
+    <div class="content">
+        <h4 class="div_header">Tables (╯°□°）╯︵ ┻━┻</h4>
+        <h5>Tables</h5>
+        <p>HTML can be used to build the skeleton for tables. Tables are created using the table tag <b>&lt;table&gt;</b>. Rows are specified using <b>&lt;tr&gt;</b> and boxes within the rows are represented using the table data tag <b>&lt;td&gt;</b>.</p> 
+        <p><b>Example</b>:</p>
+        <table>
+            <tr>
+                <td>Table Data 1-1</td>
+                <td>Table Data 1-2</td>
+                <td>Table Data 1-3</td>
+            </tr>
+                <td>Table Data 2-1</td>
+                <td>Table Data 2-2</td>
+                <td>Table Data 2-3</td>
+            <tr>
+                <td>Table Data 3-1</td>
+                <td>Table Data 3-2</td>
+                <td>Table Data 3-3</td>
+            </tr>
+        </table>
+        <h5>Table Headers</h5>
+        <p>A table header <b>&lt;th&gt;</b> is used to specify that a data point within the header. Using this gives the creater greater control when integrating CSS properties. </p>
+        <h5>Spanning Rows and Columns</h5>
+        <!--
+            <p>Spanning columns <b>&lt;colspan="1"&gt;</b> and spanning rows <b>&lt;rowspan="1"&gt;</b> are used to designate larger box areas.</p>
+        <table>
+            <tr>
+                <th></th>
+                <th rowspan="2">Title</th>
+            </tr>
+            <tr>
+                <th colspan="2">AM</th>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+        </table> -->
     </div>
     <!--
     <img src="https://user-images.githubusercontent.com/16769972/32175252-c506e16a-bd5a-11e7-9708-db3f4baba595.png" length="40px" width="40px" align="left">

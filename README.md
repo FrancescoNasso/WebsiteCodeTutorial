@@ -4,6 +4,23 @@
 
 <h3>Developer's Blog</h3>
 
+<h5>October 31th</h5>
+    <p>Happy Halloween! Today I completed a short lesson on figures and figure captions. Tomorrow, I plan to add a bit more on tables and table formating.</p>
+<h6>Goals</h6>
+    <ul>
+        <li>Continue Adding HTML code to the site</li>
+        <li>Add additional styling to the site via CSS</li>
+    </ul>
+<h6>Updates</h6>
+    <ul>
+        <li>Figures + Figcaptions</li>
+        <li>Tables - Partial</li>
+    </ul>
+<h6>Fixes</h6>
+    <ul>
+        <li>None</li>
+    </ul>
+
 <h5>October 30th</h5>
     <p>Continuing to add more to the website. Today, I experimented with adding a coding snippet section to allow users to copy and paste larger sections of code into their own websites. </p>
 <h6>Goals</h6>
@@ -41,7 +58,7 @@
     <ul>
         <li>Miscellaneous Typos</li>
         <li>README now displays in reverse cronological order</li>
-        <li>Added code to all content blocks: Some content blocks failed to display the code it was referncing </li>
+        <li>Added code to all content blocks: Some content blocks failed to display the code it was referencing.</li>
     </ul>
 
 <img src="https://user-images.githubusercontent.com/16769972/32144971-836ac384-bc97-11e7-91a8-9b68cf15c0fd.png">

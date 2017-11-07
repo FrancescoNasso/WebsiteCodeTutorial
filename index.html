@@ -40,16 +40,28 @@
 	</div>
 	<div class="content">
         <h4 class="div_header">Bolding</h4>
-		<p>You can make things <b>bold</b> with the <b>&lt;b&gt;</b> tag. Alternatively, you can use the <b>&lt;strong&gt;</b> tag to denote exactly the same thing.</p> 
+		<p>You can make things <b>bold</b> with the <b>&lt;b&gt;</b> tag. Alternatively, you can use the <b>&lt;strong&gt;</b> tag to denote exactly the same thing.</p>
+            <div class="snippet">
+                <p>Source Snippet</p>
+                <p>Anything inside this tag is &lt;b&gt;bold&lt;/b&gt;. &lt;strong&gt;Strong&lt;/strong&gt; can also be used to make things appear bold.</p>
+            </div>
 	</div>
     <div class="content">
         <h4 class="div_header">Italics</h4>
-        <p>You can make your content italicized using <b>&lt;i&gt;</b>. The same effect can be achieved using <em>&lt;i&gt;</em> which stands for emphasis.</p>
+        <p>You can make your content italicized using <b>&lt;i&gt;</b>. The same effect can be achieved using <em>&lt;em&gt;</em> which stands for emphasis.</p>
+            <div class="snippet">
+                <p>Source Snippet</p>
+                <p>Anything inside this tag is &lt;i&gt;italics&lt;/i&gt;. &lt;em&gt;Em&lt;/em&gt; which stands for emphasis can also make words appear in italics.</p>
+            </div>
     </div>
 	<div class="content">
-        <h4 class="div_header">Subscripts</h4>
-		<p>You can use HTML to denote superscript (e.g., 1<sup>2</sup>) using the &lt;<b>sup</b>&gt; tag. You can also use subscript (e.g., H<sub>2</sub>0) by using the &lt;<b>sub</b>&gt; tag. </p>
-	</div>
+        <h4 class="div_header">Superscripts and Subscripts</h4>
+		<p>You can use HTML to denote superscript (e.g., 1<sup>2</sup>) using the &lt;<b>sup</b>&gt; tag. You can also use subscript (e.g., H<sub>2</sub>0) by using the &lt;<b>sub</b>&gt; tag.</p>
+            <div class="snippet">
+            <p>Source Snippet</p>
+            <p>You can use HTML to denote superscript using the sup tag. For example, 1&lt;sup&gt;2&lt;/sup&gt; to denote 1 to the power of 2. HTML can also be used to create subscript (e.g., H&lt;sub&gt;2&lt;/sub&gt;0).</p>
+            </div>
+    </div>
     <div class="content">
         <h4 class="div_header">Line Breaks</h4>
         <p>Line breaks <b>&lt;br /&gt;</b> are really good for making things appear on new lines. <br/>
@@ -59,43 +71,79 @@
         <br/> 
             This
         </p>
+            <div class="snippet">
+            <p>Source Snippet</p>
+            <p>Just&lt;br /&gt;<br />
+                Like&lt;br /&gt;<br />
+                This</p>
+            </div>
+        <hr />
         <p>Horizontal breaks <b>&lt;hr /&gt;</b> like the one above are great for splitting content.</p>
         <p><strong>Fun Fact</strong>: You don't need closing or opening tags for either of these breaks. 
         </p>
+            <div class="snippet">
+            <p>Source Snippet</p>
+            <p>&lt;hr /&gt;</p>
+        </div>
     </div>
     <div class="content">
         <h4 class="div_header">Quotes</h4>
         <p>Blockquotes <b>&lt;blockquotes&gt;</b> are used to specify longer quotes. When combined with CSS you can use it to apply a specific stylization to your larger quotes.</p>
             <blockquote>"It was the best of times it was the worst of times." - The opening to A Tale of Two Cities.</blockquote>
             You can also specify smaller quotes using the quote attribute <b>&lt;quote&gt;</b>. <quote>For smaller quotes use this! <b>&lt;quote&gt;</b></quote> - Francesco Nasso
+        <div class="snippet">
+              <p>Source Snippet</p>
+            <p>&lt;blockquote&gt;"It was the best of times it was the worst of times." - The opening to A Tale of Two Cities.&lt;/blockquote&gt;</p>
+        </div>
         <p><b>Fun Fact</b>: You will rarely use this...</p>
     </div>
     <div class="content">
         <h4 class="div_header">Abbreviations</h4>
         <p>You can use abbreviations <b>&lt;abbr&gt;</b> to provide a full word when its abreviated.</p>
-        <p>For example... <abbr title="Water, Hydrogen dioxide">H<sub>2</sub>0</abbr></p>
+        <p>For example... <abbr title="Water">H<sub>2</sub>0</abbr></p>
+        <div class="snippet">
+            <p>Source Snippet</p>
+            <p>You can use the abbreviation tag to provide a full word to an abbreviated item. For example &lt;abbr title="Water">&gt;H<sub>2</sub>O.</p>
+        </div>
     </div>
     <div class="content">
         <h4 class="div_header">Citations</h4>
         <p>You can also use HTML for citations <b>&lt;cite&gt;</b>. For example, take a look at the following quotation.</p>
         <blockquote>“Maybe there aren't any such things as good friends or bad friends - maybe there are just friends, people who stand by you when you're hurt and who help you feel not so lonely. Maybe they're always worth being scared for, and hoping for, and living for. Maybe worth dying for too, if that's what has to be. No good friends. No bad friends. Only people you want, need to be with; people who build their houses in your heart.”</blockquote>
         <p><cite>It</cite> by Stephen King</p>
+        <div class="snippet">
+            <p>Source Snippet</p>
+            <p>&lt;cite&gt;It&lt;/cite&gt; by Stephen King</p>
+        </div>
     </div>
     <div class="content">
         <h4 class="div_header">Definitions</h4>
         <p>Definition <b>&lt;dfn&gt;</b> tags can be used to specify a definition.</p>
         <p><dfn>coyling</dfn>: sickeningly cute.</p>
+         <div class="snippet">
+            <p>Source Snippet</p>
+            <p>&lt;dfn&gt;coyling&lt;/dfn&gt;: sickeningly cute.</p>
+        </div>
+        <p><b>Fun Fact:</b> Some browsers will display definitions in italics.</p>
     </div>
     <div class="content">
-        <h4 class="div_header">Paragraphs</h4>
+        <h4 class="div_header">Addresses</h4>
         <p>You can specify addresses by using the address tag <b>&lt;address&gt;</b>:</p>
         <address><p>example-email@example.org</p></address>
+        <div class="snippet">
+            <p>Page Source</p>
+            <p>&lt;address&gt;example-email@example.org&lt;/address&gt;</p>
+        </div>
     </div>
     <div class="content">
         <h4 class="div_header">Inserting and Deleting</h4>
         <p>There are tags for inserting <b>&lt;del&gt;</b> and deleting content as well</p>
-        <p><del>That</del><ins>This</ins> was a greaty example!</p>
+        <p><del>That</del><ins>This</ins> was a great example!</p>
         <p>You can also use a slash <b>&lt;s&gt;</b> to do the same thing as <b>&lt;del&gt;</b>.</p>
+        <div class="snippet">
+            <p>Page Source</p>
+            <p>There are tags for inserting and deleting content as well. &lt;del&gt;That&lt;/del&gt; &lt;ins&gt;This&lt;/ins&gt; was a great example! You can also use a slash &lt;s&gt; to do the same thing as &lt;s&gt;del&lt;/s&gt;.</p>
+        </div>
     </div>
     <div class="content">
         <h4 class="div_header">Lists</h4>
@@ -107,7 +155,7 @@
             <li>Three to get ready</li>
             <li>Four to go</li>
         </ol>
-        <h5>Ordered List</h5>
+        <h5>Unordered List</h5>
         <ul>
             <li>Red</li>
             <li>Green</li>

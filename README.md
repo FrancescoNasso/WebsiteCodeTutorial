@@ -4,6 +4,23 @@
 
 <h3>Developer's Blog</h3>
 
+<h5>November 7th</h5>
+    <p>Today, I spent a bit of time adding source snippets to HTML examples that lacked snippet content. I also fixed a few typos in the process.</p>
+<h6>Goals</h6>
+    <ul>
+        <li>Continue Adding HTML code to the site</li>
+        <li>Add additional styling to the site via CSS</li>
+        <li>All coding examples on the site have complementing source snippets</li>
+    </ul>
+<h6>Updates</h6>
+    <ul>
+        <li>Forms</li>
+    </ul>
+<h6>Fixes</h6>
+    <ul>
+        <li>Typos</li>
+    </ul>
+
 <h5>October 31th</h5>
     <p>Happy Halloween! Today I completed a short lesson on figures and figure captions. Tomorrow, I plan to add a bit more on tables and table formating.</p>
 <h6>Goals</h6>

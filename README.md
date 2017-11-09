@@ -4,6 +4,22 @@
 
 <h3>Developer's Blog</h3>
 
+<h5>November 9th</h5>
+    <p>I accomplished a major piece of work today. I have added coding snippets to all compontents of the page. Work can now continue on new types of code for creating forms. </p>
+<h6>Goals</h6>
+    <ul>
+        <li>Continue Adding HTML code to the site</li>
+        <li>Add additional styling to the site via CSS</li>
+    </ul>
+<h6>Updates</h6>
+    <ul>
+        <li>All coding examples on the site have complementing source snippets</li>
+    </ul>
+<h6>Fixes</h6>
+    <ul>
+        <li>Typos/li>
+    </ul>
+
 <h5>November 8th</h5>
     <p>Today, I updating the source snippets up to the list section.</p>
 <h6>Goals</h6>

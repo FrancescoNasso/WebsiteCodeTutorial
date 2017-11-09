@@ -103,7 +103,7 @@
         <p>For example... <abbr title="Water">H<sub>2</sub>0</abbr></p>
         <div class="snippet">
             <p>Source Snippet</p>
-            <p>You can use the abbreviation tag to provide a full word to an abbreviated item. For example &lt;abbr title="Water">&gt;H<sub>2</sub>O.</p>
+            <p>You can use the abbreviation tag to provide a full word to an abbreviated item. For example &lt;abbr title="Water"&gt; H<sub>2</sub>O.</p>
         </div>
     </div>
     <div class="content">
@@ -155,22 +155,51 @@
             <li>Three to get ready</li>
             <li>Four to go</li>
         </ol>
+        <div class="snippet">
+            <p>Page Source</p>
+            <p>Ordered List</p>
+        &lt;ol&gt; <br />
+        &emsp; &lt;li&gt; One for the money &lt;/li&gt; <br />
+        &emsp; &lt;li&gt; Two for the show &lt;/li&gt; <br />
+        &emsp; &lt;li&gt; Three to get ready &lt;/li&gt; <br />
+        &emsp; &lt;li&gt; Four to go &lt;/li&gt; <br />
+        &lt;/ol&gt;
+        <!-- &emsp is used to insert spacing -->
+        </div>
         <h5>Unordered List</h5>
         <ul>
             <li>Red</li>
             <li>Green</li>
             <li>Blue</li>
         </ul>
-        <p>A definitional list is very special. You use definitional terms  to specify the term and the definition tags to specify the definition.</p>
-        <dl>
+        <div class="snippet">
+            <p>Page Source</p>
+            <p>Unordered List</p>
+            &lt;ul&gt;<br />
+            &emsp; &lt;li>Red&lt;/li&gt;<br />
+            &emsp; &lt;li>Green&lt;/li&gt;<br />
+            &emsp; &lt;li>Blue&lt;/li&gt;<br />
+            &lt;/ul&gt;
+        </div>    
             <h5>Definitional List</h5>
+            <p>A definitional list is very special. You use definitional terms  to specify the term and the definition tags to specify the definition.</p>
+        <dl>
             <dt>Sushi</dt>
-            <dd>A type of Japanese cuisine typified by raw fish.</dd>
+                <dd>A type of Japanese cuisine typified by raw fish.</dd>
             <dt>Sashimi</dt>
-            <dd>Sliced raw fish that is served with condiments such as shredded dicon radish or ginger root, wasabi and soy sauce.</dd>
+                <dd>Sliced raw fish that is served with condiments such as shredded dicon radish or ginger root, wasabi and soy sauce.</dd>
         </dl>
-        <p>Lists can aslo be nested within other lists.</p>
+        <div class="snippet">
+            <p>Page Source</p>
+            &lt;dl&gt;<br />
+             &emsp; &lt;dt&gt; Sushi&lt;/dt&gt;<br />
+              &emsp; &emsp; &lt;dd&gt; A type of Japanese cuisine typified by raw fish.&lt;/dd&gt;<br />
+             &emsp; &lt;dt&gt; Sashimi&lt;/dt&gt;<br />
+              &emsp; &emsp; &lt;dd&gt; Sliced raw fish that is served with condiments such as shredded dicon radish or ginger root, wasabi and soy sauce.&lt;/dd&gt;<br />
+             &lt;/dl&gt;
+        </div>
         <h5>Nested Lists</h5>
+        <p>Lists can aslo be nested within other lists.</p>
         <ul>
             <li>College List</li>
                 <ul>
@@ -184,6 +213,22 @@
                         </ol>
                 </ul>
         </ul>
+            <div class="snippet">
+            <p>Page Source</p>
+            &lt;ul&gt; <br />
+             &emsp; &lt;li&gt; College List &lt;/li&gt; <br />
+                &emsp; &emsp; &lt;ul&gt; <br />
+                   &emsp; &lt;li&gt; Harvard &lt;/li&gt; <br />
+                   &emsp; &lt;li&gt; Yale &lt;/li&gt; <br />
+                   &emsp; &lt;li&gt; Princeton &lt;/li&gt; <br />
+                       &emsp; &emsp; &lt;ol&gt; <br />
+                            &emsp; &emsp; &emsp; &lt;li&gt; Lacrosse &lt;/li&gt; <br />
+                            &emsp; &emsp; &emsp; &lt;li&gt; Basketball &lt;/li&gt; <br />
+                            &emsp; &emsp; &emsp; &lt;li&gt; Swimming &lt;/li&gt; <br />
+                       &emsp; &emsp; &lt;/ol&gt; <br />
+                 &emsp; &emsp; &lt;/ul&gt; <br />
+            &emsp; &emsp; &lt;/ul&gt; <br />
+            </div>
     </div>
     <div class="content">
         <h4 class="div_header">Links and Page Anchors (⚓)</h4>

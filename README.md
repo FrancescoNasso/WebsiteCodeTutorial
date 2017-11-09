@@ -4,6 +4,23 @@
 
 <h3>Developer's Blog</h3>
 
+<h5>November 8th</h5>
+    <p>Today, I updating the source snippets up to the list section.</p>
+<h6>Goals</h6>
+    <ul>
+        <li>Continue Adding HTML code to the site</li>
+        <li>Add additional styling to the site via CSS</li>
+        <li>All coding examples on the site have complementing source snippets</li>
+    </ul>
+<h6>Updates</h6>
+    <ul>
+        <li>Snippets up to list</li>
+    </ul>
+<h6>Fixes</h6>
+    <ul>
+        <li>Moved the location of a few paragraphs in the list section</li>
+    </ul>
+
 <h5>November 7th</h5>
     <p>Today, I spent a bit of time adding source snippets to HTML examples that lacked snippet content. I also fixed a few typos in the process.</p>
 <h6>Goals</h6>

@@ -481,7 +481,7 @@
          <p>HTML can be used to create forms such as textboxs, dropdown menus, etc. However, you will need the backend of your website to be able to handle responses for these forms to work.</p>
         <p>Forms are designated with the <b>&lt;forms&gt;</b> tag. Additionally, for each form you should specify the <em>method</em> you want to transmit data with. <b>&lt;get&gt;</b> is used for small transfers of information, whereas <em>post</em> is used for larger pieces of information (like textbox data), as well as information that is private.</p>
         <p>For many forms, <b>&lt;input&gt;</b> is used to specify the type of form you want displayed to the user. See the <em>textbox example</em> below.</p>
-        <h3>Text Box</h3>
+        <h5>Text Box</h5>
         <form action="www.example.com/subscriber.php" method="get">
             <p>Tell me your username
             <input type="text" name="username" maxlength="30 /">
@@ -489,7 +489,6 @@
         </form>
         <div class="snippet">
             <p>Page Source</p>
-            <p>Text Box</p>
           &lt;form action="www.example.com/subscriber.php" method="get"&gt; <br />
             &nbsp; &lt;p&gt; Tell me your username <br />
             &nbsp; &lt;input type="text" name="username" maxlength="30 /"&gt; <br />
@@ -627,7 +626,111 @@
             &lt;/form&gt;
         </div>
         <h5>Image Button</h5>
-     </div>
+            <form action="www.example.com/subscriber.php" method="post">
+                <p>Subscribe to my email list!</p>
+                <input type="text" name="email" maxlength="30" /> 
+                <input type="image" src="https://user-images.githubusercontent.com/16769972/32627583-eccf5f66-c560-11e7-9361-ccee9e5447b4.png" width="100" height="20">
+                </form>
+        <div class="snippet">
+                <p>Page Source</p>
+                &lt;form action="www.example.com/subscriber.php" method="post"&gt; <br />
+                &lt;p&gt; Subscribe to my email list! &lt;/p&gt; <br />
+                &nbsp; &lt;input type="text" name="email" maxlength="30" /&gt; <br />
+                &nbsp; &lt;input type="image" src="https://user-images.githubusercontent.com/16769972/32627583-eccf5f66-c560-11e7-9361-ccee9e5447b4.png" width="100" height="20"&gt; <br />
+                 &lt;/form &gt;
+        </div>
+        <h5>Buttons and Hidden Controls</h5>
+        <div>
+            <form action="www.example.com/add.php">
+                <button><img src="https://user-images.githubusercontent.com/16769972/32627583-eccf5f66-c560-11e7-9361-ccee9e5447b4.png" alt="add" width="10" height="10"/>Add </button>
+                <input type="hidden" name="bookmark" value="books" />
+            </form>
+            <div class="snippet">
+                <p>Page Source</p>
+                &lt;form action="www.example.com/add.php"&gt; <br />
+                &nbsp; &lt;button&gt; &lt;img src="https://user-images.githubusercontent.com/16769972/32627583-eccf5f66-c560-11e7-9361-ccee9e5447b4.png" alt="add" width="10" height="10"/&gt; Add &lt;/button&gt; <br />
+                &nbsp; &lt;input type="hidden" name="bookmark" value="books" /&gt; <br />
+                &lt;/form&gt;
+            </div>
+        <h5>Labeling Form Controls</h5>     
+        <form action="www.example.com/add.php" method="get">
+            <label>Age: <input type="text" name="age" /></label>
+            <br />
+            Gender:
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">Female</label>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">Male</label>
+        </form>
+            <div class="snippet">
+            <p>Page Source</p>
+            &lt;form action="www.example.com/add.php" method="get"&gt; <br />
+            &nbsp; &lt;label&gt; Age: &lt;input type="text" name="age" /&gt; &lt;/label&gt; <br />
+                Gender: <br />
+            &nbsp; &lt;input id="female" type="radio" name="gender" value="f"&gt; <br />
+            &nbsp; &lt;label for="female"&gt; Female&lt;/label&gt; <br />
+            &nbsp; &lt;input id="male" type="radio" name="gender" value="m"&gt; <br />
+            &nbsp; &lt;label for="male">Male&lt;/label&gt; <br />
+            &lt;/form&gt;
+            </div>
+        <h5>Fieldset</h5>
+        <p>The &lt;fieldset&gt; element is used to group elements of a list together. Typically, a browser will put a border around any content that appears in the feildset. A &lt;legend&gt; is also used to inform users of why the content is grouped.</p>
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>Email: <br />
+            <input type="text" name="email" /></label><br />
+            <label>Mobile: <br />
+            <input type="text" name="mobile" /></label><br />
+            <label>Telephone: <br />
+            <input type="text" name="mobile" /></label><br />
+        </fieldset>
+            <div class="snippet">
+            <p>Page Source</p>
+                &lt;fieldset&gt; <br />
+                &lt;legend>Contact details&lt;/legend&gt; <br />
+                &nbsp; &lt;label&gt;Email: <br />
+                &nbsp; &lt;input type="text" name="email" /&gt;&lt;/label&gt;<br />
+                &nbsp; &lt;label&gt;Mobile: <br />
+                &nbsp; &lt;input type="text" name="mobile" /&gt;&lt;/label&gt;<br />
+                &nbsp; &lt;label&gt;Telephone: <br />
+                &nbsp; &lt;input type="text" name="mobile" /&gt;&lt;/label&gt;<br />
+                &lt;/fieldset&gt;
+            </div>
+        <h5>Form Validation</h5>
+        <p>Form validation can be done in HTML as well. This allows the form to tell your computer information.</p>
+         <form action="http://www.example.com/login/" method="post">
+             <label for="username">Username:</label>
+             <input type="text" name="username" required="required" /><br />
+             <label for="password">Password:</label>
+             <input type="password" name="password" required="required" />
+             <input type="submit" value="submit" />
+         </form>
+            <div class="snippet">
+                <p>Page Source</p>
+                &lt;form action="http://www.example.com/login/" method="post"&gt; <br />
+                &nbsp; &lt;label for="username"&gt; Username:&lt;/label&gt; <br />
+                &nbsp; &lt;input type="text" name="username" required="required" /&gt;<br />
+                &nbsp; &lt;label for="password">Password:&lt;/label&gt; <br />
+                &nbsp; &lt;input type="password" name="password" required="required" /&gt; <br />
+                &nbsp; &lt;input type="submit" value="submit" /&gt; <br />
+                &lt;/form&gt; 
+            </div>
+            <!--"required" is the section used for form validation-->
+            </div>
+        </div>
+        <div class="content">
+        <h4>IDs and Classes</h4>
+            <p>HTML is made even more powerful when it is combined with CSS. (This site was created using a combination of HTML and CSS). An easy way to designate content for CSS is by using the <b>&lt;id&gt;</b> and <b>&lt;class&gt;</b> tags. Id is used for unique content, whereas a class is used for content that your want stylized the same way for the entire website.</p>
+            <p><b>Fun fact</b>: Page Source is styled using the class element.</p>
+            <div class="snippet">
+                <p>Page Source</p>
+            </div>
+        </div>
+        <div class="content">
+        <h4>iframes</h4>
+            <p>Some websites display map data to make it easy for users to find a specific direction. HTML makes this easy by using iframes.</p>
+            <iframe width="450" height="350" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96716.85967608872!2d-74.05236024179686!3d40.753185200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590099a8a8a9%3A0xcf7a08608cf37be9!2sMid-Manhattan+Library!5e0!3m2!1sen!2sus!4v1510354749801"></iframe>
+        </div>
     <!--
     <img src="https://user-images.githubusercontent.com/16769972/32175252-c506e16a-bd5a-11e7-9708-db3f4baba595.png" length="40px" width="40px" align="left">
     <h3>CSS3</h3>

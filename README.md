@@ -17,7 +17,7 @@
     </ul>
 <h6>Fixes</h6>
     <ul>
-        <li>Typos/li>
+        <li>Typos</li>
     </ul>
 
 <h5>November 8th</h5>
